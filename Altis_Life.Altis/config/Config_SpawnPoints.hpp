@@ -240,4 +240,54 @@ class CfgSpawnPoints {
 
     };
 
+    class Enoch {
+        class Civilian {
+            class Topolin {
+                displayName = "Topolin";
+                spawnMarker = "civ_spawn_1";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "!license_civ_rebel";
+            };
+
+            class Grabin {
+                displayName = "Grabin";
+                spawnMarker = "civ_spawn_2";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "";
+            };
+
+            class RebelS {
+                displayName = $STR_SP_Reb_S;
+                spawnMarker = "Rebelop_1";
+                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
+                conditions = "license_civ_rebel";
+            };
+        };
+
+        class Cop {
+            class Topolin {
+                displayName = "Topolin HQ";
+                spawnMarker = "cop_spawn_1";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "";
+            };
+
+            class Air {
+                displayName = $STR_MAR_Police_Air_HQ;
+                spawnMarker = "cop_spawn_4";
+                icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
+                conditions = "call life_coplevel >= 2 && {license_cop_cAir}";
+            };
+        };
+
+        class Medic {
+            class Topolin {
+                displayName = $STR_SP_EMS_Kav;
+                spawnMarker = "medic_spawn_1";
+                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+                conditions = "";
+            };
+        };
+    };
+
 };

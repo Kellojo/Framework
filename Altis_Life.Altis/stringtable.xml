@@ -10396,6 +10396,18 @@
             <Italian>Questura</Italian>
 			<Chinesesimp>警察分局</Chinesesimp>
         </Key>
+        <Key ID="STR_HAR_Police_Station">
+            <Original>Police Harbor</Original>
+            <Czech>Policejní stanice</Czech>
+            <French>Poste de police</French>
+            <Spanish>Estación de Policia</Spanish>
+            <Russian></Russian>
+            <German>Polizei Werft</German>
+            <Portuguese>Estação Policial</Portuguese>
+            <Polish>Posterunek policji</Polish>
+            <Italian>Questura</Italian>
+			<Chinesesimp>警察分局</Chinesesimp>
+        </Key>
         <Key ID="STR_MAR_Police_Air_HQ">
             <Original>Police Air HQ</Original>
             <Czech>Police Air HQ</Czech>
@@ -11815,16 +11827,16 @@
 			<Chinesesimp>东北叛军基地</Chinesesimp>
         </Key>
         <Key ID="STR_SP_EMS_Kav">
-            <Original>Kavala Hospital</Original>
-            <Czech>Kavala Hospital</Czech>
-            <Spanish>Kavala Hospital</Spanish>
-            <Russian>Kavala Hospital</Russian>
-            <German>Kavala Krankenhaus</German>
-            <French>Hôpital de Kavala</French>
-            <Italian>Kavala Hospital</Italian>
-            <Portuguese>Kavala Hospital</Portuguese>
-            <Polish>Kavala Hospital</Polish>
-			<Chinesesimp>Kavala医院</Chinesesimp>
+            <Original>Topolin Hospital</Original>
+            <Czech>Topolin Hospital</Czech>
+            <Spanish>Topolin Hospital</Spanish>
+            <Russian>Topolin Hospital</Russian>
+            <German>Topolin Krankenhaus</German>
+            <French>Hôpital de Topolin</French>
+            <Italian>Topolin Hospital</Italian>
+            <Portuguese>Topolin Hospital</Portuguese>
+            <Polish>Topolin Hospital</Polish>
+			<Chinesesimp>Topolin医院</Chinesesimp>
         </Key>
         <Key ID="STR_SP_EMS_Ath">
             <Original>Athira Regional</Original>
